@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('checkout){
           steps{
-            git url:'"
+            git url:'https://github.com/Juieeee/DockerJenkins.git'
           }
           }
 
