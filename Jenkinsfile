@@ -20,7 +20,7 @@ pipeline{
             }
           }
 
-          Stage('Run Image -Contanerize'){
+          stage('Run Image -Contanerize'){
             steps(
               bat 'docker run -d -p 7000:80 --name mycont mywebsite'
               }
